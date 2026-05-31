@@ -1,16 +1,57 @@
-# React + Vite
+# React Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple counter application built using React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Increase count
+* Decrease count
+* Dynamic color updates
+* Responsive UI
+* React state management using `useState`
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript
+* CSS
+* Vite
 
-## Expanding the ESLint configuration
+## Concepts Learned
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React Components
+* useState Hook
+* Event Handling
+* Conditional Rendering
+* Dynamic Styling
+
+## Project Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sakavijayarajusaieashwar/react-counter-app.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## Future Improvements
+
+* Add reset button
+* Add dark mode
+* Add local storage support
+* Add animations
+
+## Author
+
+Built by Sai Eashwar
