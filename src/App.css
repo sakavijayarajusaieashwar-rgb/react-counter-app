@@ -1,0 +1,36 @@
+.maincontainer{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  background-color:#f0f0f0;
+}
+.counterHeading{
+  font-size:2rem;
+  margin-bottom:20px;
+}
+.count{
+  font-size:3rem;
+  margin-bottom:20px;
+  color:#333;
+}
+.button{
+  margin:10px;
+  padding:10px 20px;
+  
+  color:#fff;
+  background-color:#007bff;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+.positive{
+  color:green
+}
+.zero{
+  color:gray
+}
+.Negitive{
+  color:red
+}
